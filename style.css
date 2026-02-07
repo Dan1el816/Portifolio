@@ -1,0 +1,54 @@
+#Hero{
+    background-color: #0C2C55;
+}
+.d-block.mx-auto.mb-3 {
+  border-radius: 50%;
+}
+.lead.mb-4{
+    color: #EDEDCE;
+}
+.display-5.fw-bold.titulo-nome {
+  color: #EDEDCE;
+}
+
+#Hero {
+  background: linear-gradient(
+    270deg,
+    #0C2C55,
+    #296374,
+    #629FAD,
+    #0C2C55
+  );
+  background-size: 600% 600%;
+  animation: gradientMove 12s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#Projetos{
+  background: linear-gradient(
+    270deg,
+    #0C2C55,
+    #296374,
+    #629FAD,
+    #EDEDCE
+  );
+  background-size: 600% 600%;
+  animation: gradientMove 12s ease infinite;
+}
+
+.nutre{
+  font-size: 27px;
+}
+.fs-5.mb-4{
+  color: #629FAD;
+}
