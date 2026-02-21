@@ -52,3 +52,11 @@
 .fs-5.mb-4{
   color: #629FAD;
 }
+.card-cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 90%;
+  
+
+}
